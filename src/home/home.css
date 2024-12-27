@@ -1,0 +1,167 @@
+.top-aligner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.collection-name {
+  font-size: 17px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.arrow-icon {
+  fill: currentColor;
+  transition: transform 0.3s ease;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.save-button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 17px;
+  border: 0px;
+  border-radius: 25px;
+  height: 35px;
+  width: 70px;
+  font-weight: 200;
+}
+
+.apple-watch {
+  height: 20px;
+  width: 90px;
+  margin-bottom: 50px;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 480px;
+}
+
+.apple-watch-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 17px;
+  text-decoration: none solid rgb(29, 29, 31);
+  width: 720px;
+}
+
+.studio-name {
+  height: 29px;
+  font-size: 21px;
+  padding: 10px;
+}
+
+.customize-words {
+  font-size: 64px;
+  font-weight: 600;
+  height: 68px;
+  line-height: 68px;
+}
+
+.get-start-button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 17px;
+  border: 0px;
+  border-radius: 25px;
+  height: 42px;
+  width: 120px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+
+.watch-align {
+  position: relative;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+.watch-align.reduced {
+  transform: scale(0.7); /* Scale down */
+  transition: transform 0.3s ease, top 0.3s ease; /* Smooth transition for both transform and top */
+  top: -100px;
+}
+
+.band-image {
+  width: 100%;
+  height: 800px;
+}
+
+.case-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 800px;
+}
+.band-image.reduced,
+.case-image.reduced {
+  width: 90%;
+  height: 600px;
+}
+
+.watch-button {
+  background-color: #e8e8ed;
+  border: 0px;
+  margin-right: 20px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 17px;
+  height: 40px;
+  margin-top: -200px;
+  z-index: 10;
+}
+
+.watch-button svg {
+  margin-right: 10px;
+}
+
+.watch-button.active {
+  background-color: #ccc;
+}
+
+.watch-button label {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.unstyled-lists {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+.size-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.size-list li {
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.size-list li:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.watch-buttons {
+  display: flex;
+  justify-content: space-around;
+}
